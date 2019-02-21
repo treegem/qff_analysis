@@ -155,3 +155,7 @@ venv.bak/
 # mypy
 .mypy_cache/
 
+.idea/misc.xml
+.idea/modules.xml
+.idea/qff_analysis.iml
+.idea/vcs.xml
