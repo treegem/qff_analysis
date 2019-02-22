@@ -52,7 +52,7 @@ def quadrupole_field_2d(r, r0, axes, gradient):
          (3x3 matrix with column vectors describing
           axis of 0 field, gradient 1 gradient 2 )
          axes have to be orthogonal and normalized
-    strength: scalar (T/m). Field grows to positive numbers 
+    gradient: gradient strength, scalar (T/m). Field grows to positive numbers 
               with this gradient along axes[:,1]
               grows to negative numbers along axes[:,2]
     """
